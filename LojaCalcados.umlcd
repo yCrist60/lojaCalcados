@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Gqs9oPbgEeyDE7l5uP290w">
+  <modelElement href="LojaCalcados.uml#_EfEMgPbgEeyDE7l5uP290w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kXjoEPbgEeyDE7l5uP290w" sourceAnchor="0.0,48.0" targetAnchor="159.0,68.0" target="_kXmrYPbgEeyDE7l5uP290w" source="_oQ_-0PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP1rAPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_kXkPIPbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_oVJfAPbgEeyDE7l5uP290w" position="-6.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kXkPIfbgEeyDE7l5uP290w" aggregationKind="NONE" name="dadosPessoais" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPKVkPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_oVI38PbgEeyDE7l5uP290w" position="-39.0,-86.0"/>
+      <visibility xmi:id="_kXkPIvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXkPI_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kXkPJPbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP1rAfbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_oVJfAfbgEeyDE7l5uP290w" position="7.0,2.0"/>
+      <visibility xmi:id="_kXkPJfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXkPJvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kXldQPbgEeyDE7l5uP290w" sourceAnchor="131.0,0.0" targetAnchor="79.0,137.0" target="_kXmrYPbgEeyDE7l5uP290w" source="_tM_XsPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP25IPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_kXldQfbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_tQOR4PbgEeyDE7l5uP290w" position="-13.0,-3.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kXldQvbgEeyDE7l5uP290w" aggregationKind="NONE" name="endereco" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPLjsPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_tQNq0PbgEeyDE7l5uP290w" position="-105.0,-46.0"/>
+      <visibility xmi:id="_kXldQ_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXldRPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kXldRfbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP25IfbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_tQOR4fbgEeyDE7l5uP290w" position="2.0,10.0"/>
+      <visibility xmi:id="_kXldRvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXldR_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kXmEUPbgEeyDE7l5uP290w" sourceAnchor="0.0,87.0" targetAnchor="123.0,137.0" target="_kXmrYPbgEeyDE7l5uP290w" source="_lP92wPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP3gMPbgEeyDE7l5uP290w"/>
+    <bendpoints xmi:id="_6HW8YfbgEeyDE7l5uP290w" sourceX="-128" targetY="163"/>
+    <nameVisual xmi:id="_kXmEUfbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_lTz08PbgEeyDE7l5uP290w" position="1.0,-57.50000000000006"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kXmEUvbgEeyDE7l5uP290w" aggregationKind="NONE" name="contato" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPMKwPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_lTym0PbgEeyDE7l5uP290w" position="-87.0,-45.50000000000006"/>
+      <visibility xmi:id="_kXmEU_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmEVPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kXmEVfbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP3gMfbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_lT0cAPbgEeyDE7l5uP290w" position="2.0,30.125"/>
+      <visibility xmi:id="_kXmEVvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmEV_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oQ_XwPbgEeyDE7l5uP290w" target="_oQ_-0PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP4HQPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_oQ_XwfbgEeyDE7l5uP290w" text=""/>
+    <sourceRole xmi:id="_oQ_XwvbgEeyDE7l5uP290w" aggregationKind="NONE" name="dataNascimento" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPQcMPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_Xw_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_XxPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oQ_XxfbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP4HQfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_XxvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_Xx_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uy_sMPbgEeyDE7l5uP290w" sourceAnchor="159.0,71.0" targetAnchor="0.0,97.0" target="_uzGZ4PbgEeyDE7l5uP290w" source="_oQ_-0PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP58cPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_uzBhYPbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_u2ByEPbgEeyDE7l5uP290w" position="-10.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uzBhYfbgEeyDE7l5uP290w" aggregationKind="NONE" name="dadosPessoais" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPXw8fbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u2BLAPbgEeyDE7l5uP290w" position="-11.0,-47.0"/>
+      <visibility xmi:id="_uzD9pPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzD9o_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uzBhYvbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP58cfbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u2ByEfbgEeyDE7l5uP290w" position="-27.0,2.0"/>
+      <visibility xmi:id="_uzD9pvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzD9pfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uzATQPbgEeyDE7l5uP290w" sourceAnchor="160.0,182.0" targetAnchor="93.0,194.0" target="_uzGZ4PbgEeyDE7l5uP290w" source="_tM_XsPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP58cvbgEeyDE7l5uP290w"/>
+    <bendpoints xmi:id="_6HW8YPbgEeyDE7l5uP290w" sourceX="409" targetY="207"/>
+    <nameVisual xmi:id="_uzBhY_bgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_u2DnQPbgEeyDE7l5uP290w" position="-12.0,-58.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uzBhZPbgEeyDE7l5uP290w" aggregationKind="NONE" name="endereco" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPYYAPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u2CZIPbgEeyDE7l5uP290w" position="50.0,-47.0"/>
+      <visibility xmi:id="_uzEksfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzEksPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uzBhZfbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP6jgPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u2DnQfbgEeyDE7l5uP290w" position="-17.0,33.0"/>
+      <visibility xmi:id="_uzEks_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzEksvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uzATQfbgEeyDE7l5uP290w" sourceAnchor="176.0,0.0" targetAnchor="3.0,194.0" target="_uzGZ4PbgEeyDE7l5uP290w" source="_lP92wPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP6jgfbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_uzBhZvbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_u2Aj8PbgEeyDE7l5uP290w" position="-13.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uzBhZ_bgEeyDE7l5uP290w" aggregationKind="NONE" name="contato" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPYYAfbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u1_84fbgEeyDE7l5uP290w" position="12.0,-20.0"/>
+      <visibility xmi:id="_uzEktfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzEktPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uzCIcPbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP6jgvbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_u2Aj8fbgEeyDE7l5uP290w" position="-56.0,-25.0"/>
+      <visibility xmi:id="_uzEkt_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzEktvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uzA6UPbgEeyDE7l5uP290w" target="_uzGZ4PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP5VYPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_uzD9oPbgEeyDE7l5uP290w" text=""/>
+    <sourceRole xmi:id="_uzD9ofbgEeyDE7l5uP290w" aggregationKind="NONE" name="expediente" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPXw8PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzFLwfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzFLwPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uzD9ovbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP5VYfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzFLw_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzFLwvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uzFy0PbgEeyDE7l5uP290w" sourceAnchor="0.0,87.0" targetAnchor="187.0,178.0" target="_uzGZ4PbgEeyDE7l5uP290w" source="_vKtBk_bgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP6jg_bgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_uzFy0fbgEeyDE7l5uP290w" text="">
+      <visualProperties xmi:id="_vNgd8PbgEeyDE7l5uP290w" position="-6.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uzFy0vbgEeyDE7l5uP290w" aggregationKind="NONE" name="usuario" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPYYAvbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_vNf24PbgEeyDE7l5uP290w" position="-56.0,46.0"/>
+      <visibility xmi:id="_uzFy0_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzFy1PbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uzFy1fbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP6jhPbgEeyDE7l5uP290w"/>
+      <visualProperties xmi:id="_vNgd8fbgEeyDE7l5uP290w" position="8.0,-47.0"/>
+      <visibility xmi:id="_uzFy1vbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzFy1_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vKp-QPbgEeyDE7l5uP290w" target="_vKtBk_bgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HP7KkPbgEeyDE7l5uP290w"/>
+    <nameVisual xmi:id="_vKrzcPbgEeyDE7l5uP290w" text=""/>
+    <sourceRole xmi:id="_vKrzcfbgEeyDE7l5uP290w" aggregationKind="NONE" name="criadoEm" navigable="true">
+      <modelElement href="LojaCalcados.uml#_HPa0QPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtBkPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKsagPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vKrzcvbgEeyDE7l5uP290w" aggregationKind="NONE" name="">
+      <modelElement href="LojaCalcados.uml#_HP7KkfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtBkvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtBkfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kXmrYPbgEeyDE7l5uP290w" name="Cliente" associationsIn="_kXjoEPbgEeyDE7l5uP290w _kXldQPbgEeyDE7l5uP290w _kXmEUPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HL3J8PbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_kXmrYfbgEeyDE7l5uP290w" position="121.0,16.0" size="159.0,137.0"/>
+    <visibility xmi:id="_kXmrYvbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_kXmrY_bgEeyDE7l5uP290w" name="idCliente">
+      <modelElement href="LojaCalcados.uml#_HPIgYPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_kXmrZPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrZfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_kXmrZvbgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kXmrZ_bgEeyDE7l5uP290w" name="nomeCliente">
+      <modelElement href="LojaCalcados.uml#_HPJugPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_kXmraPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrafbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_kXmravbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kXmra_bgEeyDE7l5uP290w" name="dadosPessoais">
+      <modelElement href="LojaCalcados.uml#_HPKVkPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_kXmrbPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrbfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_kXmrbvbgEeyDE7l5uP290w" name="DadosPessoais">
+        <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kXmrb_bgEeyDE7l5uP290w" name="endereco">
+      <modelElement href="LojaCalcados.uml#_HPLjsPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_kXmrcPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrcfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_kXmrcvbgEeyDE7l5uP290w" name="Endereco">
+        <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kXmrc_bgEeyDE7l5uP290w" name="contato">
+      <modelElement href="LojaCalcados.uml#_HPMKwPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_kXmrdPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrdfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_kXmrdvbgEeyDE7l5uP290w" name="Contato">
+        <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kXmrd_bgEeyDE7l5uP290w" name="Cliente">
+      <modelElement href="LojaCalcados.uml#_HMCJEPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_kXmrePbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_kXmrefbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HMElUPbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_kXmrevbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmre_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kXmrfPbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HMHBkPbgEeyDE7l5uP290w"/>
+        <type xmi:id="_kXmrffbgEeyDE7l5uP290w" name="Cliente">
+          <modelElement href="LojaCalcados.uml#_HL3J8PbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kXmrfvbgEeyDE7l5uP290w" name="Cliente">
+      <modelElement href="LojaCalcados.uml#_HOuQsPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_kXmrf_bgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_kXmrgPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_kXmrgfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kXmrgvbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HOve0fbgEeyDE7l5uP290w"/>
+        <type xmi:id="_kXmrg_bgEeyDE7l5uP290w" name="Cliente">
+          <modelElement href="LojaCalcados.uml#_HL3J8PbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kXmrhPbgEeyDE7l5uP290w" name="idCliente">
+        <modelElement href="LojaCalcados.uml#_HOuQsfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_kXmrhfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_kXmrhvbgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kXmrh_bgEeyDE7l5uP290w" name="nomeCliente">
+        <modelElement href="LojaCalcados.uml#_HOuQsvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_kXmriPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_kXmrifbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kXmrivbgEeyDE7l5uP290w" name="dadosPessoais">
+        <modelElement href="LojaCalcados.uml#_HOu3wPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_kXmri_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_kXmrjPbgEeyDE7l5uP290w" name="DadosPessoais">
+          <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kXmrjfbgEeyDE7l5uP290w" name="endereco">
+        <modelElement href="LojaCalcados.uml#_HOu3wfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_kXmrjvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_kXmrj_bgEeyDE7l5uP290w" name="Endereco">
+          <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kXmrkPbgEeyDE7l5uP290w" name="contato">
+        <modelElement href="LojaCalcados.uml#_HOu3wvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_kXmrkfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_kXmrkvbgEeyDE7l5uP290w" name="Contato">
+          <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oQ_-0PbgEeyDE7l5uP290w" name="DadosPessoais" associationsIn="_oQ_XwPbgEeyDE7l5uP290w" associationsOut="_kXjoEPbgEeyDE7l5uP290w _uy_sMPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_oQ_-0fbgEeyDE7l5uP290w" position="316.0,36.0" size="159.0,156.0"/>
+    <visibility xmi:id="_oQ_-0vbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_oQ_-0_bgEeyDE7l5uP290w" name="idDadosPessoais">
+      <modelElement href="LojaCalcados.uml#_HPPOEPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_-1PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-1fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_oQ_-1vbgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oQ_-1_bgEeyDE7l5uP290w" name="cpf">
+      <modelElement href="LojaCalcados.uml#_HPP1IPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_-2PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-2fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_oQ_-2vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oQ_-2_bgEeyDE7l5uP290w" name="dataNascimento">
+      <modelElement href="LojaCalcados.uml#_HPQcMPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_-3PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-3fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_oQ_-3vbgEeyDE7l5uP290w" name="Date">
+        <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oQ_-3_bgEeyDE7l5uP290w" name="sexo">
+      <modelElement href="LojaCalcados.uml#_HPRDQPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_oQ_-4PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-4fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_oQ_-4vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oQ_-4_bgEeyDE7l5uP290w" name="DadosPessoais">
+      <modelElement href="LojaCalcados.uml#_HMajkPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_oQ_-5PbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_oQ_-5fbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HMbxsPbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_oQ_-5vbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-5_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oQ_-6PbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HMbxsfbgEeyDE7l5uP290w"/>
+        <type xmi:id="_oQ_-6fbgEeyDE7l5uP290w" name="DadosPessoais">
+          <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oQ_-6vbgEeyDE7l5uP290w" name="DadosPessoais">
+      <modelElement href="LojaCalcados.uml#_HOzwQPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_oQ_-6_bgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_oQ_-7PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_oQ_-7fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oQ_-7vbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HO0-YvbgEeyDE7l5uP290w"/>
+        <type xmi:id="_oQ_-7_bgEeyDE7l5uP290w" name="DadosPessoais">
+          <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oQ_-8PbgEeyDE7l5uP290w" name="idDadosPessoais">
+        <modelElement href="LojaCalcados.uml#_HO0XUPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_oQ_-8fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_oQ_-8vbgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oQ_-8_bgEeyDE7l5uP290w" name="cpf">
+        <modelElement href="LojaCalcados.uml#_HO0XUfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_oQ_-9PbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_oQ_-9fbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oQ_-9vbgEeyDE7l5uP290w" name="dataNascimento">
+        <modelElement href="LojaCalcados.uml#_HO0XUvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_oQ_-9_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_oQ_--PbgEeyDE7l5uP290w" name="Date">
+          <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oQ_--fbgEeyDE7l5uP290w" name="sexo">
+        <modelElement href="LojaCalcados.uml#_HO0XU_bgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_oQ_--vbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_oQ_--_bgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vKtBk_bgEeyDE7l5uP290w" name="Usuario" associationsIn="_vKp-QPbgEeyDE7l5uP290w" associationsOut="_uzFy0PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HNPqAPbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_vKtBlPbgEeyDE7l5uP290w" position="770.0,101.0" size="145.0,175.0"/>
+    <visibility xmi:id="_vKtBlfbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_vKtooPbgEeyDE7l5uP290w" name="idUsuario">
+      <modelElement href="LojaCalcados.uml#_HPZmIPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtoofbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtoovbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_vKtoo_bgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vKtopPbgEeyDE7l5uP290w" name="nomeUsuario">
+      <modelElement href="LojaCalcados.uml#_HPZmIfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtopfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtopvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_vKtop_bgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vKtoqPbgEeyDE7l5uP290w" name="senha">
+      <modelElement href="LojaCalcados.uml#_HPaNMPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtoqfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtoqvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_vKtoq_bgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vKtorPbgEeyDE7l5uP290w" name="nivelAcesso">
+      <modelElement href="LojaCalcados.uml#_HPaNMfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtorfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtorvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_vKtor_bgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vKtosPbgEeyDE7l5uP290w" name="criadoEm">
+      <modelElement href="LojaCalcados.uml#_HPa0QPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_vKtosfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtosvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_vKtos_bgEeyDE7l5uP290w" name="Date">
+        <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vKtotPbgEeyDE7l5uP290w" name="Usuario">
+      <modelElement href="LojaCalcados.uml#_HNSGQPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_vKtotfbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_vKtotvbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HNTUYPbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_vKtot_bgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtouPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vKtoufbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HNT7cPbgEeyDE7l5uP290w"/>
+        <type xmi:id="_vKtouvbgEeyDE7l5uP290w" name="Usuario">
+          <modelElement href="LojaCalcados.uml#_HNPqAPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vKtou_bgEeyDE7l5uP290w" name="Usuario">
+      <modelElement href="LojaCalcados.uml#_HPEO8PbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_vKtovPbgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_vKtovfbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_vKtovvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vKtov_bgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HPE2A_bgEeyDE7l5uP290w"/>
+        <type xmi:id="_vKtowPbgEeyDE7l5uP290w" name="Usuario">
+          <modelElement href="LojaCalcados.uml#_HNPqAPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vKtowfbgEeyDE7l5uP290w" name="idUsuario">
+        <modelElement href="LojaCalcados.uml#_HPEO8fbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_vKtowvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_vKtow_bgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vKtoxPbgEeyDE7l5uP290w" name="nomeUsuario">
+        <modelElement href="LojaCalcados.uml#_HPEO8vbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_vKtoxfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_vKtoxvbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vKtox_bgEeyDE7l5uP290w" name="senha">
+        <modelElement href="LojaCalcados.uml#_HPEO8_bgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_vKtoyPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_vKtoyfbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vKtoyvbgEeyDE7l5uP290w" name="nivelAcesso">
+        <modelElement href="LojaCalcados.uml#_HPEO9PbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_vKtoy_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_vKtozPbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vKtozfbgEeyDE7l5uP290w" name="criadoEm">
+        <modelElement href="LojaCalcados.uml#_HPE2APbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_vKtozvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_vKtoz_bgEeyDE7l5uP290w" name="Date">
+          <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tM_XsPbgEeyDE7l5uP290w" name="Endereco" associationsOut="_kXldQPbgEeyDE7l5uP290w _uzATQPbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_tM_XsfbgEeyDE7l5uP290w" position="69.0,229.0" size="160.0,251.0"/>
+    <visibility xmi:id="_tM_XsvbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_tM_Xs_bgEeyDE7l5uP290w" name="idEndereco">
+      <modelElement href="LojaCalcados.uml#_HPSRYPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XtPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XtfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XtvbgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xt_bgEeyDE7l5uP290w" name="tipo">
+      <modelElement href="LojaCalcados.uml#_HPS4cPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XuPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XufbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XuvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xu_bgEeyDE7l5uP290w" name="logradouro">
+      <modelElement href="LojaCalcados.uml#_HPS4cfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XvPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XvfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XvvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xv_bgEeyDE7l5uP290w" name="numero">
+      <modelElement href="LojaCalcados.uml#_HPTfgPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XwPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XwfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XwvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xw_bgEeyDE7l5uP290w" name="complemento">
+      <modelElement href="LojaCalcados.uml#_HPTfgfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XxPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XxfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XxvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xx_bgEeyDE7l5uP290w" name="cep">
+      <modelElement href="LojaCalcados.uml#_HPUGkPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XyPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XyfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XyvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xy_bgEeyDE7l5uP290w" name="bairro">
+      <modelElement href="LojaCalcados.uml#_HPUGkfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_XzPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_XzfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_XzvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_Xz_bgEeyDE7l5uP290w" name="cidade">
+      <modelElement href="LojaCalcados.uml#_HPUtoPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_X0PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_X0fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_X0vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tM_X0_bgEeyDE7l5uP290w" name="estado">
+      <modelElement href="LojaCalcados.uml#_HPUtofbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_tM_X1PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_X1fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_tM_X1vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tM_X1_bgEeyDE7l5uP290w" name="Endereco">
+      <modelElement href="LojaCalcados.uml#_HMmw0PbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_tM_X2PbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_tM_X2fbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HMnX4vbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_tM_X2vbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_X2_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tM_X3PbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HMn-8PbgEeyDE7l5uP290w"/>
+        <type xmi:id="_tM_X3fbgEeyDE7l5uP290w" name="Endereco">
+          <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tM_X3vbgEeyDE7l5uP290w" name="Endereco">
+      <modelElement href="LojaCalcados.uml#_HO4BsPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_tM_X3_bgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_tM_X4PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_tM_X4fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tM_X4vbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HO524vbgEeyDE7l5uP290w"/>
+        <type xmi:id="_tM_X4_bgEeyDE7l5uP290w" name="Endereco">
+          <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tM_X5PbgEeyDE7l5uP290w" name="idEndereco">
+        <modelElement href="LojaCalcados.uml#_HO4BsfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X5fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X5vbgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X5_bgEeyDE7l5uP290w" name="tipo">
+        <modelElement href="LojaCalcados.uml#_HO4owPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X6PbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X6fbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X6vbgEeyDE7l5uP290w" name="logradouro">
+        <modelElement href="LojaCalcados.uml#_HO4owfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X6_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X7PbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X7fbgEeyDE7l5uP290w" name="numero">
+        <modelElement href="LojaCalcados.uml#_HO5P0PbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X7vbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X7_bgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X8PbgEeyDE7l5uP290w" name="complemento">
+        <modelElement href="LojaCalcados.uml#_HO5P0fbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X8fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X8vbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X8_bgEeyDE7l5uP290w" name="cep">
+        <modelElement href="LojaCalcados.uml#_HO5P0vbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X9PbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X9fbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X9vbgEeyDE7l5uP290w" name="bairro">
+        <modelElement href="LojaCalcados.uml#_HO5P0_bgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X9_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X-PbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X-fbgEeyDE7l5uP290w" name="cidade">
+        <modelElement href="LojaCalcados.uml#_HO5P1PbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X-vbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X-_bgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tM_X_PbgEeyDE7l5uP290w" name="estado">
+        <modelElement href="LojaCalcados.uml#_HO5P1fbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_tM_X_fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_tM_X_vbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uzGZ4PbgEeyDE7l5uP290w" name="Funcionario" associationsIn="_uy_sMPbgEeyDE7l5uP290w _uzATQPbgEeyDE7l5uP290w _uzATQfbgEeyDE7l5uP290w _uzA6UPbgEeyDE7l5uP290w _uzFy0PbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HMyXAPbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_uzGZ4fbgEeyDE7l5uP290w" position="545.0,10.0" size="187.0,194.0"/>
+    <visibility xmi:id="_uzGZ4vbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_uzGZ4_bgEeyDE7l5uP290w" name="idFuncionario">
+      <modelElement href="LojaCalcados.uml#_HPV7wPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ5PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ5fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ5vbgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ5_bgEeyDE7l5uP290w" name="nomeFuncionario">
+      <modelElement href="LojaCalcados.uml#_HPWi0PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ6PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ6fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ6vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ6_bgEeyDE7l5uP290w" name="cargo">
+      <modelElement href="LojaCalcados.uml#_HPWi0fbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ7PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ7fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ7vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ7_bgEeyDE7l5uP290w" name="setor">
+      <modelElement href="LojaCalcados.uml#_HPXJ4PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ8PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ8fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ8vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ8_bgEeyDE7l5uP290w" name="gestor">
+      <modelElement href="LojaCalcados.uml#_HPXJ4fbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ9PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ9fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ9vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ9_bgEeyDE7l5uP290w" name="expediente">
+      <modelElement href="LojaCalcados.uml#_HPXw8PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ-PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ-fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ-vbgEeyDE7l5uP290w" name="Date">
+        <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ-_bgEeyDE7l5uP290w" name="dadosPessoais">
+      <modelElement href="LojaCalcados.uml#_HPXw8fbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGZ_PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGZ_fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGZ_vbgEeyDE7l5uP290w" name="DadosPessoais">
+        <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGZ__bgEeyDE7l5uP290w" name="endereco">
+      <modelElement href="LojaCalcados.uml#_HPYYAPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGaAPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGaAfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGaAvbgEeyDE7l5uP290w" name="Endereco">
+        <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGaA_bgEeyDE7l5uP290w" name="contato">
+      <modelElement href="LojaCalcados.uml#_HPYYAfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGaBPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGaBfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGaBvbgEeyDE7l5uP290w" name="Contato">
+        <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uzGaB_bgEeyDE7l5uP290w" name="usuario">
+      <modelElement href="LojaCalcados.uml#_HPYYAvbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_uzGaCPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGaCfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_uzGaCvbgEeyDE7l5uP290w" name="Usuario">
+        <modelElement href="LojaCalcados.uml#_HNPqAPbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uzGaC_bgEeyDE7l5uP290w" name="Funcionario">
+      <modelElement href="LojaCalcados.uml#_HM9WIPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_uzGaDPbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_uzGaDfbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HM_yYPbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_uzGaDvbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGaD_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uzGaEPbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HNAZcPbgEeyDE7l5uP290w"/>
+        <type xmi:id="_uzGaEfbgEeyDE7l5uP290w" name="Funcionario">
+          <modelElement href="LojaCalcados.uml#_HMyXAPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uzGaEvbgEeyDE7l5uP290w" name="Funcionario">
+      <modelElement href="LojaCalcados.uml#_HO-vYPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_uzGaE_bgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_uzGaFPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_uzGaFfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uzGaFvbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HO_9hPbgEeyDE7l5uP290w"/>
+        <type xmi:id="_uzGaF_bgEeyDE7l5uP290w" name="Funcionario">
+          <modelElement href="LojaCalcados.uml#_HMyXAPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uzGaGPbgEeyDE7l5uP290w" name="idFuncionario">
+        <modelElement href="LojaCalcados.uml#_HO-vYfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaGfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaGvbgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaG_bgEeyDE7l5uP290w" name="nomeFuncionario">
+        <modelElement href="LojaCalcados.uml#_HO-vYvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaHPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaHfbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaHvbgEeyDE7l5uP290w" name="cargo">
+        <modelElement href="LojaCalcados.uml#_HO_WcPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaH_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaIPbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaIfbgEeyDE7l5uP290w" name="setor">
+        <modelElement href="LojaCalcados.uml#_HO_WcfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaIvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaI_bgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaJPbgEeyDE7l5uP290w" name="gestor">
+        <modelElement href="LojaCalcados.uml#_HO_WcvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaJfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaJvbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaJ_bgEeyDE7l5uP290w" name="expediente">
+        <modelElement href="LojaCalcados.uml#_HO_Wc_bgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaKPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaKfbgEeyDE7l5uP290w" name="Date">
+          <modelElement href="LojaCalcados.uml#_HOUBAPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaKvbgEeyDE7l5uP290w" name="dadosPessoais">
+        <modelElement href="LojaCalcados.uml#_HO_WdPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaK_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaLPbgEeyDE7l5uP290w" name="DadosPessoais">
+          <modelElement href="LojaCalcados.uml#_HMYuYPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaLfbgEeyDE7l5uP290w" name="endereco">
+        <modelElement href="LojaCalcados.uml#_HO_WdfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaLvbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaL_bgEeyDE7l5uP290w" name="Endereco">
+          <modelElement href="LojaCalcados.uml#_HMifYPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaMPbgEeyDE7l5uP290w" name="contato">
+        <modelElement href="LojaCalcados.uml#_HO_9gPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaMfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaMvbgEeyDE7l5uP290w" name="Contato">
+          <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uzGaM_bgEeyDE7l5uP290w" name="usuario">
+        <modelElement href="LojaCalcados.uml#_HO_9gfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_uzGaNPbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_uzGaNfbgEeyDE7l5uP290w" name="Usuario">
+          <modelElement href="LojaCalcados.uml#_HNPqAPbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lP92wPbgEeyDE7l5uP290w" name="Contato" associationsOut="_kXmEUPbgEeyDE7l5uP290w _uzATQfbgEeyDE7l5uP290w">
+    <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+    <visualProperties xmi:id="_lP92wfbgEeyDE7l5uP290w" position="372.0,229.0" size="191.0,175.0"/>
+    <visibility xmi:id="_lP92wvbgEeyDE7l5uP290w" label="+"/>
+    <attributes xmi:id="_lP92w_bgEeyDE7l5uP290w" name="idContato">
+      <modelElement href="LojaCalcados.uml#_HPNY4PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_lP92xPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP92xfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_lP92xvbgEeyDE7l5uP290w" name="Long">
+        <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lP92x_bgEeyDE7l5uP290w" name="telefoneResidencial">
+      <modelElement href="LojaCalcados.uml#_HPN_8PbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_lP92yPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP92yfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_lP92yvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lP92y_bgEeyDE7l5uP290w" name="telefoneCelular">
+      <modelElement href="LojaCalcados.uml#_HPN_8fbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_lP92zPbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP92zfbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_lP92zvbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lP92z_bgEeyDE7l5uP290w" name="telefoneComercial">
+      <modelElement href="LojaCalcados.uml#_HPOnAPbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_lP920PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP920fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_lP920vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lP920_bgEeyDE7l5uP290w" name="email">
+      <modelElement href="LojaCalcados.uml#_HPOnAfbgEeyDE7l5uP290w"/>
+      <visibility xmi:id="_lP921PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP921fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <type xmi:id="_lP921vbgEeyDE7l5uP290w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lP921_bgEeyDE7l5uP290w" name="Contato">
+      <modelElement href="LojaCalcados.uml#_HMTO0PbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_lP922PbgEeyDE7l5uP290w" keyword="create"/>
+      <stereotypes xmi:id="_lP922fbgEeyDE7l5uP290w" name="LegacyStyledElement">
+        <modelElement href="LojaCalcados.uml#_HMUc8PbgEeyDE7l5uP290w"/>
+      </stereotypes>
+      <visibility xmi:id="_lP922vbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP922_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lP923PbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HMUc8fbgEeyDE7l5uP290w"/>
+        <type xmi:id="_lP923fbgEeyDE7l5uP290w" name="Contato">
+          <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lP923vbgEeyDE7l5uP290w" name="Contato">
+      <modelElement href="LojaCalcados.uml#_HOxUAPbgEeyDE7l5uP290w"/>
+      <keywords xmi:id="_lP923_bgEeyDE7l5uP290w" keyword="create"/>
+      <visibility xmi:id="_lP924PbgEeyDE7l5uP290w" label="+"/>
+      <cardinality xmi:id="_lP924fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lP924vbgEeyDE7l5uP290w">
+        <modelElement href="LojaCalcados.uml#_HOx7E_bgEeyDE7l5uP290w"/>
+        <type xmi:id="_lP924_bgEeyDE7l5uP290w" name="Contato">
+          <modelElement href="LojaCalcados.uml#_HMQykPbgEeyDE7l5uP290w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lP925PbgEeyDE7l5uP290w" name="idContato">
+        <modelElement href="LojaCalcados.uml#_HOxUAfbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_lP925fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_lP925vbgEeyDE7l5uP290w" name="Long">
+          <modelElement href="LojaCalcados.uml#_HOrNYfbgEeyDE7l5uP290w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lP925_bgEeyDE7l5uP290w" name="telefoneResidencial">
+        <modelElement href="LojaCalcados.uml#_HOxUAvbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_lP926PbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_lP926fbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lP926vbgEeyDE7l5uP290w" name="telefoneCelular">
+        <modelElement href="LojaCalcados.uml#_HOxUA_bgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_lP926_bgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_lP927PbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lP927fbgEeyDE7l5uP290w" name="telefoneComercial">
+        <modelElement href="LojaCalcados.uml#_HOxUBPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_lP927vbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_lP927_bgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lP928PbgEeyDE7l5uP290w" name="email">
+        <modelElement href="LojaCalcados.uml#_HOx7EPbgEeyDE7l5uP290w"/>
+        <cardinality xmi:id="_lP928fbgEeyDE7l5uP290w" label="1" max="1" min="1"/>
+        <type xmi:id="_lP928vbgEeyDE7l5uP290w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

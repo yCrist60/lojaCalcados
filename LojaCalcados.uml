@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_EfEMgPbgEeyDE7l5uP290w" name="LojaCalcados">
+    <eAnnotations xmi:id="_G5FX4PbgEeyDE7l5uP290w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_G5FX4fbgEeyDE7l5uP290w" source="codegen">
+        <details xmi:id="_G5F-8PbgEeyDE7l5uP290w" key="codegenDirectory" value="/LojaCalcados/src"/>
+        <details xmi:id="_HlVZ4PbgEeyDE7l5uP290w" key="AssociatedSourceCode" value="/LojaCalcados/src/br/com/lojacalcados/pojo/Cliente.java;1581098499/1;/LojaCalcados/src/br/com/lojacalcados/pojo/Contato.java;2399516287/1;/LojaCalcados/src/br/com/lojacalcados/pojo/DadosPessoais.java;4145364298/1;/LojaCalcados/src/br/com/lojacalcados/pojo/Endereco.java;3019858805/1;/LojaCalcados/src/br/com/lojacalcados/pojo/Funcionario.java;2678416386/1;/LojaCalcados/src/br/com/lojacalcados/pojo/Usuario.java;943045773/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_HL93oPbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_HL93ofbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_HL93ovbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_HL-esPbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_HL-esfbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_HL-esvbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_HL-es_bgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_HL-etPbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_HL_FwPbgEeyDE7l5uP290w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HKep4PbgEeyDE7l5uP290w" name="br">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HKfQ8PbgEeyDE7l5uP290w" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HKf4APbgEeyDE7l5uP290w" name="lojacalcados">
+          <packagedElement xmi:type="uml:Package" xmi:id="_HKw9wPbgEeyDE7l5uP290w" name="pojo">
+            <packagedElement xmi:type="uml:Class" xmi:id="_HL3J8PbgEeyDE7l5uP290w" name="Cliente">
+              <ownedAttribute xmi:id="_HPIgYPbgEeyDE7l5uP290w" name="idCliente" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPJugPbgEeyDE7l5uP290w" name="nomeCliente">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPKVkPbgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w" association="_HP1rAPbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPLjsPbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w" association="_HP25IPbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPMKwPbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w" association="_HP3gMPbgEeyDE7l5uP290w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPmacPbgEeyDE7l5uP290w" name="Cliente" specification="_HOuQsPbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPmacfbgEeyDE7l5uP290w" name="idCliente" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPmacvbgEeyDE7l5uP290w" name="nomeCliente">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPmac_bgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPmadPbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPmadfbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPmadvbgEeyDE7l5uP290w" type="_HL3J8PbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idCliente = idCliente;&#xD;
+		this.nomeCliente = nomeCliente;&#xD;
+		this.dadosPessoais = dadosPessoais;&#xD;
+		this.endereco = endereco;&#xD;
+		this.contato = contato;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HMCJEPbgEeyDE7l5uP290w" name="Cliente">
+                <eAnnotations xmi:id="_HMDXMPbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HMDXMfbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HMHBkPbgEeyDE7l5uP290w" type="_HL3J8PbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HOuQsPbgEeyDE7l5uP290w" name="Cliente" method="_HPmacPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HOu3w_bgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HOve0PbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HOuQsfbgEeyDE7l5uP290w" name="idCliente" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HOuQsvbgEeyDE7l5uP290w" name="nomeCliente">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HOu3wPbgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HOu3wfbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HOu3wvbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HOve0fbgEeyDE7l5uP290w" type="_HL3J8PbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HMQykPbgEeyDE7l5uP290w" name="Contato">
+              <ownedAttribute xmi:id="_HPNY4PbgEeyDE7l5uP290w" name="idContato" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPN_8PbgEeyDE7l5uP290w" name="telefoneResidencial">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPN_8fbgEeyDE7l5uP290w" name="telefoneCelular">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPOnAPbgEeyDE7l5uP290w" name="telefoneComercial">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPOnAfbgEeyDE7l5uP290w" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPu9UPbgEeyDE7l5uP290w" name="Contato" specification="_HOxUAPbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPu9UfbgEeyDE7l5uP290w" name="idContato" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPu9UvbgEeyDE7l5uP290w" name="telefoneResidencial">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPu9U_bgEeyDE7l5uP290w" name="telefoneCelular">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPu9VPbgEeyDE7l5uP290w" name="telefoneComercial">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPu9VfbgEeyDE7l5uP290w" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPu9VvbgEeyDE7l5uP290w" type="_HMQykPbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idContato = idContato;&#xD;
+		this.telefoneResidencial = telefoneResidencial;&#xD;
+		this.telefoneCelular = telefoneCelular;&#xD;
+		this.telefoneComercial = telefoneComercial;&#xD;
+		this.email = email;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HMTO0PbgEeyDE7l5uP290w" name="Contato">
+                <eAnnotations xmi:id="_HMT14PbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HMT14fbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HMUc8fbgEeyDE7l5uP290w" type="_HMQykPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HOxUAPbgEeyDE7l5uP290w" name="Contato" method="_HPu9UPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HOx7EfbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HOx7EvbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HOxUAfbgEeyDE7l5uP290w" name="idContato" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HOxUAvbgEeyDE7l5uP290w" name="telefoneResidencial">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HOxUA_bgEeyDE7l5uP290w" name="telefoneCelular">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HOxUBPbgEeyDE7l5uP290w" name="telefoneComercial">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HOx7EPbgEeyDE7l5uP290w" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HOx7E_bgEeyDE7l5uP290w" type="_HMQykPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HMYuYPbgEeyDE7l5uP290w" name="DadosPessoais">
+              <ownedAttribute xmi:id="_HPPOEPbgEeyDE7l5uP290w" name="idDadosPessoais" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPP1IPbgEeyDE7l5uP290w" name="cpf">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPQcMPbgEeyDE7l5uP290w" name="dataNascimento" type="_HOUBAPbgEeyDE7l5uP290w" association="_HP4HQPbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPRDQPbgEeyDE7l5uP290w" name="sexo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPwLcPbgEeyDE7l5uP290w" name="DadosPessoais" specification="_HOzwQPbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPwLcfbgEeyDE7l5uP290w" name="idDadosPessoais" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPwLcvbgEeyDE7l5uP290w" name="cpf">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwLc_bgEeyDE7l5uP290w" name="dataNascimento" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPwLdPbgEeyDE7l5uP290w" name="sexo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwLdfbgEeyDE7l5uP290w" type="_HMYuYPbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idDadosPessoais = idDadosPessoais;&#xD;
+		this.cpf = cpf;&#xD;
+		this.dataNascimento = dataNascimento;&#xD;
+		this.sexo = sexo;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HMajkPbgEeyDE7l5uP290w" name="DadosPessoais">
+                <eAnnotations xmi:id="_HMbKoPbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HMbKofbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HMbxsfbgEeyDE7l5uP290w" type="_HMYuYPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HOzwQPbgEeyDE7l5uP290w" name="DadosPessoais" method="_HPwLcPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HO0-YPbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HO0-YfbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HO0XUPbgEeyDE7l5uP290w" name="idDadosPessoais" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO0XUfbgEeyDE7l5uP290w" name="cpf">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO0XUvbgEeyDE7l5uP290w" name="dataNascimento" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO0XU_bgEeyDE7l5uP290w" name="sexo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO0-YvbgEeyDE7l5uP290w" type="_HMYuYPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HMifYPbgEeyDE7l5uP290w" name="Endereco">
+              <ownedAttribute xmi:id="_HPSRYPbgEeyDE7l5uP290w" name="idEndereco" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPS4cPbgEeyDE7l5uP290w" name="tipo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPS4cfbgEeyDE7l5uP290w" name="logradouro">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPTfgPbgEeyDE7l5uP290w" name="numero">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPTfgfbgEeyDE7l5uP290w" name="complemento">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPUGkPbgEeyDE7l5uP290w" name="cep">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPUGkfbgEeyDE7l5uP290w" name="bairro">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPUtoPbgEeyDE7l5uP290w" name="cidade">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPUtofbgEeyDE7l5uP290w" name="estado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPwygPbgEeyDE7l5uP290w" name="Endereco" specification="_HO4BsPbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPwygfbgEeyDE7l5uP290w" name="idEndereco" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPwygvbgEeyDE7l5uP290w" name="tipo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyg_bgEeyDE7l5uP290w" name="logradouro">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyhPbgEeyDE7l5uP290w" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyhfbgEeyDE7l5uP290w" name="complemento">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyhvbgEeyDE7l5uP290w" name="cep">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyh_bgEeyDE7l5uP290w" name="bairro">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyiPbgEeyDE7l5uP290w" name="cidade">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyifbgEeyDE7l5uP290w" name="estado">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPwyivbgEeyDE7l5uP290w" type="_HMifYPbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idEndereco = idEndereco;&#xD;
+		this.tipo = tipo;&#xD;
+		this.logradouro = logradouro;&#xD;
+		this.numero = numero;&#xD;
+		this.complemento = complemento;&#xD;
+		this.cep = cep;&#xD;
+		this.bairro = bairro;&#xD;
+		this.cidade = cidade;&#xD;
+		this.estado = estado;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HMmw0PbgEeyDE7l5uP290w" name="Endereco">
+                <eAnnotations xmi:id="_HMnX4PbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HMnX4fbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HMn-8PbgEeyDE7l5uP290w" type="_HMifYPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HO4BsPbgEeyDE7l5uP290w" name="Endereco" method="_HPwygPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HO524PbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HO524fbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HO4BsfbgEeyDE7l5uP290w" name="idEndereco" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO4owPbgEeyDE7l5uP290w" name="tipo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO4owfbgEeyDE7l5uP290w" name="logradouro">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P0PbgEeyDE7l5uP290w" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P0fbgEeyDE7l5uP290w" name="complemento">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P0vbgEeyDE7l5uP290w" name="cep">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P0_bgEeyDE7l5uP290w" name="bairro">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P1PbgEeyDE7l5uP290w" name="cidade">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO5P1fbgEeyDE7l5uP290w" name="estado">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO524vbgEeyDE7l5uP290w" type="_HMifYPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HMyXAPbgEeyDE7l5uP290w" name="Funcionario">
+              <ownedAttribute xmi:id="_HPV7wPbgEeyDE7l5uP290w" name="idFuncionario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPWi0PbgEeyDE7l5uP290w" name="nomeFuncionario">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPWi0fbgEeyDE7l5uP290w" name="cargo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPXJ4PbgEeyDE7l5uP290w" name="setor">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPXJ4fbgEeyDE7l5uP290w" name="gestor">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPXw8PbgEeyDE7l5uP290w" name="expediente" type="_HOUBAPbgEeyDE7l5uP290w" association="_HP5VYPbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPXw8fbgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w" association="_HP58cPbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPYYAPbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w" association="_HP58cvbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPYYAfbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w" association="_HP6jgfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPYYAvbgEeyDE7l5uP290w" name="usuario" type="_HNPqAPbgEeyDE7l5uP290w" association="_HP6jg_bgEeyDE7l5uP290w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPyAoPbgEeyDE7l5uP290w" name="Funcionario" specification="_HO-vYPbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPyAofbgEeyDE7l5uP290w" name="idFuncionario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAovbgEeyDE7l5uP290w" name="nomeFuncionario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPyAo_bgEeyDE7l5uP290w" name="cargo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPyApPbgEeyDE7l5uP290w" name="setor">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPyApfbgEeyDE7l5uP290w" name="gestor">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPyApvbgEeyDE7l5uP290w" name="expediente" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAp_bgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAqPbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAqfbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAqvbgEeyDE7l5uP290w" name="usuario" type="_HNPqAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPyAq_bgEeyDE7l5uP290w" type="_HMyXAPbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idFuncionario = idFuncionario;&#xD;
+		this.nomeFuncionario = nomeFuncionario;&#xD;
+		this.cargo = cargo;&#xD;
+		this.setor = setor;&#xD;
+		this.gestor = gestor;&#xD;
+		this.expediente = expediente;&#xD;
+		this.dadosPessoais = dadosPessoais;&#xD;
+		this.endereco = endereco;&#xD;
+		this.contato = contato;&#xD;
+		this.usuario = usuario;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HM9WIPbgEeyDE7l5uP290w" name="Funcionario">
+                <eAnnotations xmi:id="_HM99MPbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HM-kQPbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HNAZcPbgEeyDE7l5uP290w" type="_HMyXAPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HO-vYPbgEeyDE7l5uP290w" name="Funcionario" method="_HPyAoPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HO_9gvbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HO_9g_bgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HO-vYfbgEeyDE7l5uP290w" name="idFuncionario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO-vYvbgEeyDE7l5uP290w" name="nomeFuncionario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO_WcPbgEeyDE7l5uP290w" name="cargo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO_WcfbgEeyDE7l5uP290w" name="setor">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO_WcvbgEeyDE7l5uP290w" name="gestor">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HO_Wc_bgEeyDE7l5uP290w" name="expediente" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO_WdPbgEeyDE7l5uP290w" name="dadosPessoais" type="_HMYuYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO_WdfbgEeyDE7l5uP290w" name="endereco" type="_HMifYPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO_9gPbgEeyDE7l5uP290w" name="contato" type="_HMQykPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO_9gfbgEeyDE7l5uP290w" name="usuario" type="_HNPqAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HO_9hPbgEeyDE7l5uP290w" type="_HMyXAPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HNPqAPbgEeyDE7l5uP290w" name="Usuario">
+              <ownedAttribute xmi:id="_HPZmIPbgEeyDE7l5uP290w" name="idUsuario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+              <ownedAttribute xmi:id="_HPZmIfbgEeyDE7l5uP290w" name="nomeUsuario">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPaNMPbgEeyDE7l5uP290w" name="senha">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPaNMfbgEeyDE7l5uP290w" name="nivelAcesso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_HPa0QPbgEeyDE7l5uP290w" name="criadoEm" type="_HOUBAPbgEeyDE7l5uP290w" association="_HP7KkPbgEeyDE7l5uP290w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HPzOwPbgEeyDE7l5uP290w" name="Usuario" specification="_HPEO8PbgEeyDE7l5uP290w">
+                <ownedParameter xmi:id="_HPzOwfbgEeyDE7l5uP290w" name="idUsuario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPzOwvbgEeyDE7l5uP290w" name="nomeUsuario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPzOw_bgEeyDE7l5uP290w" name="senha">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPzOxPbgEeyDE7l5uP290w" name="nivelAcesso">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPzOxfbgEeyDE7l5uP290w" name="criadoEm" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPzOxvbgEeyDE7l5uP290w" type="_HNPqAPbgEeyDE7l5uP290w" direction="return"/>
+                <language>java</language>
+                <body>this.idUsuario = idUsuario;&#xD;
+		this.nomeUsuario = nomeUsuario;&#xD;
+		this.senha = senha;&#xD;
+		this.nivelAcesso = nivelAcesso;&#xD;
+		this.criadoEm = criadoEm;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_HNSGQPbgEeyDE7l5uP290w" name="Usuario">
+                <eAnnotations xmi:id="_HNStUPbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HNStUfbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HNT7cPbgEeyDE7l5uP290w" type="_HNPqAPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_HPEO8PbgEeyDE7l5uP290w" name="Usuario" method="_HPzOwPbgEeyDE7l5uP290w">
+                <eAnnotations xmi:id="_HPE2AfbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_HPE2AvbgEeyDE7l5uP290w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_HPEO8fbgEeyDE7l5uP290w" name="idUsuario" type="_HOrNYfbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPEO8vbgEeyDE7l5uP290w" name="nomeUsuario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPEO8_bgEeyDE7l5uP290w" name="senha">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPEO9PbgEeyDE7l5uP290w" name="nivelAcesso">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_HPE2APbgEeyDE7l5uP290w" name="criadoEm" type="_HOUBAPbgEeyDE7l5uP290w"/>
+                <ownedParameter xmi:id="_HPE2A_bgEeyDE7l5uP290w" type="_HNPqAPbgEeyDE7l5uP290w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP1rAPbgEeyDE7l5uP290w" name="" memberEnd="_HPKVkPbgEeyDE7l5uP290w _HP1rAfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP1rAfbgEeyDE7l5uP290w" name="" type="_HL3J8PbgEeyDE7l5uP290w" association="_HP1rAPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP25IPbgEeyDE7l5uP290w" name="" memberEnd="_HPLjsPbgEeyDE7l5uP290w _HP25IfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP25IfbgEeyDE7l5uP290w" name="" type="_HL3J8PbgEeyDE7l5uP290w" association="_HP25IPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP3gMPbgEeyDE7l5uP290w" name="" memberEnd="_HPMKwPbgEeyDE7l5uP290w _HP3gMfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP3gMfbgEeyDE7l5uP290w" name="" type="_HL3J8PbgEeyDE7l5uP290w" association="_HP3gMPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP4HQPbgEeyDE7l5uP290w" name="" memberEnd="_HPQcMPbgEeyDE7l5uP290w _HP4HQfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP4HQfbgEeyDE7l5uP290w" name="" type="_HMYuYPbgEeyDE7l5uP290w" association="_HP4HQPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP5VYPbgEeyDE7l5uP290w" name="" memberEnd="_HPXw8PbgEeyDE7l5uP290w _HP5VYfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP5VYfbgEeyDE7l5uP290w" name="" type="_HMyXAPbgEeyDE7l5uP290w" association="_HP5VYPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP58cPbgEeyDE7l5uP290w" name="" memberEnd="_HPXw8fbgEeyDE7l5uP290w _HP58cfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP58cfbgEeyDE7l5uP290w" name="" type="_HMyXAPbgEeyDE7l5uP290w" association="_HP58cPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP58cvbgEeyDE7l5uP290w" name="" memberEnd="_HPYYAPbgEeyDE7l5uP290w _HP6jgPbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP6jgPbgEeyDE7l5uP290w" name="" type="_HMyXAPbgEeyDE7l5uP290w" association="_HP58cvbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP6jgfbgEeyDE7l5uP290w" name="" memberEnd="_HPYYAfbgEeyDE7l5uP290w _HP6jgvbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP6jgvbgEeyDE7l5uP290w" name="" type="_HMyXAPbgEeyDE7l5uP290w" association="_HP6jgfbgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP6jg_bgEeyDE7l5uP290w" name="" memberEnd="_HPYYAvbgEeyDE7l5uP290w _HP6jhPbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP6jhPbgEeyDE7l5uP290w" name="" type="_HMyXAPbgEeyDE7l5uP290w" association="_HP6jg_bgEeyDE7l5uP290w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_HP7KkPbgEeyDE7l5uP290w" name="" memberEnd="_HPa0QPbgEeyDE7l5uP290w _HP7KkfbgEeyDE7l5uP290w">
+              <ownedEnd xmi:id="_HP7KkfbgEeyDE7l5uP290w" name="" type="_HNPqAPbgEeyDE7l5uP290w" association="_HP7KkPbgEeyDE7l5uP290w"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HLEfwPbgEeyDE7l5uP290w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HLFG0PbgEeyDE7l5uP290w" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_HOUBAPbgEeyDE7l5uP290w" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HOrNYPbgEeyDE7l5uP290w" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_HOrNYfbgEeyDE7l5uP290w" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_G5IbMPbgEeyDE7l5uP290w">
+      <eAnnotations xmi:id="_G5Oh0PbgEeyDE7l5uP290w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_G5WdoPbgEeyDE7l5uP290w" base_Package="_EfEMgPbgEeyDE7l5uP290w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HMElUPbgEeyDE7l5uP290w" base_Element="_HMCJEPbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HMUc8PbgEeyDE7l5uP290w" base_Element="_HMTO0PbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HMbxsPbgEeyDE7l5uP290w" base_Element="_HMajkPbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HMnX4vbgEeyDE7l5uP290w" base_Element="_HMmw0PbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HM_yYPbgEeyDE7l5uP290w" base_Element="_HM9WIPbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HNTUYPbgEeyDE7l5uP290w" base_Element="_HNSGQPbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:Reference xmi:id="_HOWdQPbgEeyDE7l5uP290w" base_Element="_HOUBAPbgEeyDE7l5uP290w"/>
+  <UMLLabProfile:Reference xmi:id="_HOtCkPbgEeyDE7l5uP290w" base_Element="_HOrNYfbgEeyDE7l5uP290w"/>
+</xmi:XMI>

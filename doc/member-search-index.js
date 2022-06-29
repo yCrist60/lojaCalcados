@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"br.com.lojacalcados.crud","c":"ICR","l":"create(T)"},{"p":"br.com.lojacalcados.crud","c":"ICR","l":"read()"},{"p":"br.com.lojacalcados.crud","c":"ICR","l":"read(T)"}];updateSearchResults();
